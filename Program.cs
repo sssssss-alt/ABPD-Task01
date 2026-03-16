@@ -18,7 +18,7 @@
 
     static void Main()
     {
-        int[] numbers = { 5, 10, 15, 20 };
+        int[] numbers = { 5, 10, 15, 2 };
         double avg = CalculateAverage(numbers);
         Console.WriteLine("Average: " + avg);
     }
