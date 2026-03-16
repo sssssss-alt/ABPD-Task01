@@ -60,8 +60,10 @@ class Program
 
         double avg = CalculateAverage(numbers);
         int max = CalculateMax(numbers);
+        int min = CalculateMin(numbers);
 
         Console.WriteLine("Average: " + avg);
         Console.WriteLine("Max: " + max);
+        Console.WriteLine("Min: " + min);
     }
 }
