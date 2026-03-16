@@ -1,11 +1,10 @@
-﻿using System;
-
-class Program
+﻿class Program
 {
+    
     static double CalculateAverage(int[] values)
     {
         if (values == null || values.Length == 0)
-            return 0; 
+            return 0;
 
         int sum = 0;
         for (int i = 0; i < values.Length; i++)
@@ -15,5 +14,12 @@ class Program
 
         double average = (double)sum / values.Length;
         return average;
+    }
+
+    static void Main()
+    {
+        int[] numbers = { 5, 10, 15, 20 };
+        double avg = CalculateAverage(numbers);
+        Console.WriteLine("Average: " + avg);
     }
 }
